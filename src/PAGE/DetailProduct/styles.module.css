@@ -1,0 +1,208 @@
+
+.coma{
+  color: aquamarine;
+}
+
+
+
+
+
+.IMG {
+    width: 90PX; /* Chiếm 10% chiều rộng của màn hình */
+    display: flex;
+    flex-direction: column; /* Xếp thành hàng dọc */
+  }
+  
+  .IMG .img {
+    flex: 1; /* Đảm bảo mỗi ảnh chiếm phần bằng nhau */
+    aspect-ratio: 1/1; /* Tỉ lệ 5:5 cho mỗi ảnh */
+    margin-bottom: 1px; /* Khoảng cách giữa các ảnh */
+  
+  }
+  
+  .IMG .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Chỉnh ảnh vừa với kích thước của box */
+    border-radius: 14px;
+  }
+  
+
+
+
+
+
+
+
+  
+
+
+.sectionPD{
+
+padding-left: 90px;
+padding-right: 90px;
+margin-top: 40px;
+
+}
+
+
+ .img {
+    flex: 1; /* Đảm bảo mỗi ảnh chiếm phần bằng nhau */
+    aspect-ratio: 1/1; /* Tỉ lệ 5:5 cho mỗi ảnh */
+    margin-bottom: 1px; /* Khoảng cách giữa các ảnh */
+  
+  }
+  
+   .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Chỉnh ảnh vừa với kích thước của box */
+    border-radius: 14px;
+  }
+  
+
+
+
+.imgbig{ 
+
+    aspect-ratio: 1/1;
+    margin-bottom: 1px;
+
+}
+
+ .imgbig img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Chỉnh ảnh vừa với kích thước của box */
+    border-radius: 14px;
+}
+
+
+
+.SIZE ,.dsccol {
+    padding-left: 30px;
+}
+
+ .SIZE{
+    margin-top: 70px;
+  }
+
+@media (max-width: 991px) {
+  .dsccol {
+    display: none !important;
+  }
+
+  .dsccolan {
+    display: block !important;
+  }
+}
+
+.dsccolan {
+  display: none;
+}
+
+
+.dsccolan{
+
+  display: none ;
+
+}
+
+
+
+
+
+
+
+.Button{
+  margin-top: 15px;
+}
+.Buttonedit{
+width: 100%;
+background-color: black;
+color: aliceblue;
+border-radius: 29px;
+
+height: 60px;
+
+
+}
+
+
+.Buttonedit:hover {
+  background-color: #353535 !important;  
+  cursor: pointer; 
+}
+
+
+
+
+
+.Button2{
+  margin-top: 15px;
+}
+.Buttonedit2{
+width: 100%;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius: 29px;
+border: 2px solid rgb(153, 153, 153)!important;  
+
+height: 60px;
+
+
+}
+.Buttonedit2:hover {
+  border: 2px solid rgb(0, 0, 0) !important;  
+  background-color: #ffffff !important;  
+  color: rgb(0, 0, 0)!important;  
+  cursor: pointer; 
+}
+
+
+.mota{
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+  color: rgb(123, 123, 123)!important;  
+}
+
+
+
+.dscSIZE{
+  display: flex;
+
+  justify-content:space-between;
+}
+
+.dscSIZE .guide{
+  color: #7b7b7b;
+}
+
+
+.valueSize{
+  padding: 7px 0;
+ 
+}
+
+
+
+.Sizee {
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1.9px solid rgb(151, 151, 151);
+}
+
+.Sizee:hover {
+  cursor: pointer;
+  border-color: #000000;
+}
+
+.Sizee.active {
+  border-color: #000000;
+}
+
